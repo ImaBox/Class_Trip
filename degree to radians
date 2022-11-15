@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_2A
     Description: Practice asking the user for numbers, reading doubles from the keyboard
      or user into variables, converting values from degrees to radians using an arithmetic expression, 
      and computing the sine and cosine using the cmath methods sin() and cos() ().
