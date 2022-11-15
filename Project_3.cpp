@@ -1,5 +1,4 @@
 /*
-    Name: DARYL_GALITIVE, NSHE_ID_5005922033, 1026, ASSIGNMENT_3
     Description: create a calorie calculator application
     Input: User Input, age, weight, height, and activity level
     Output: Average calories needed to maintain weight
