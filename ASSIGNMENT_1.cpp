@@ -1,5 +1,4 @@
 /*
-    Name: DARYL_GALITIVE, NSHE_ID_5005922033, 1026, ASSIGNMENT_1
     Description: Create a program that prompts the user for details
     like the class size and the total amount of money saved for the trip.
     Input: User Input
