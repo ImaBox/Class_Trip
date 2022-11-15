@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_4A
     Description: practice prompting the user for three integers,
     reading the values from the user/keyboard into variables, and
     using a while loop to print out a range of numbers.
