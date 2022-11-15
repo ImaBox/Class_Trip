@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_3B
     Description: practice prompting the user for a character value, 
     reading the value from the user/keyboard into a char variable, 
     and using a switch statement to print out a value range based on the character entered.
