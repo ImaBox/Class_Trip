@@ -1,5 +1,4 @@
 /*
-    Name: DARYL_GALITIVE, NSHE_ID_5005922033, 1026, ASSIGNMENT_5
     Description: UNLV Parking Services has installed some sensors to help regulate 
     traffic around campus.
     Input: specify the name of the log file
