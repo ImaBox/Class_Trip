@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_4B
     Description: for, while and do...while. You will also practice correcting the
     input stream if it goes to the fail state. 
     Input: User input
