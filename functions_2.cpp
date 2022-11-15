@@ -1,5 +1,4 @@
 /*
-    * Name: Daryl_Galindo, 5005922033, CS135-1026, Lab8B
     * Description: practice using basic input/output
     * and making user defined functions
     * Input: User input
