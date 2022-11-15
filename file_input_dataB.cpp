@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_6A
     Description:practice using basic file input, 
     and using a single dimension array.
     Input: File input
