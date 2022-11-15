@@ -1,6 +1,6 @@
 /*
-    Description: UNLV Parking Services has installed some sensors to help regulate 
-    traffic around campus.
+    Description: Parking Services has installed some sensors to help regulate 
+    traffic.
     Input: specify the name of the log file
     to analyze.
     Output: the program should report to the 
