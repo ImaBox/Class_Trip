@@ -1,5 +1,5 @@
 /*
-    Description: UNLV ZOO, calculate the food for the animal needs
+    Description: ZOO, calculate the food for the animal needs
     Input: User Input
     Output: A ticket for food for rabbit & growth,
     same with zebra 
@@ -94,10 +94,10 @@ int main()
     << "\n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/"
     <<"\\/\\/\\/\\/\\/\\/\\/\\/\\/\\\n"
     << "|" << std::setw(40) << "|\n"
-    << "|             UNLV CS Zoo              |\n"
-    << "|         4505 S Maryland Pkwy         |\n"
-    << "|          Las Vegas,NV 89154          |\n"
-    << "|            (702) 895-3011            |\n"
+    << "|              CS Zoo              |\n"
+    << "|         5715 E Jackson, Fl        |\n"
+    << "|          City,State 75842         |\n"
+    << "|            (602) 895-3011            |\n"
     << "|" << std::setw(40) << "|\n"
     << "|" << std::setw(40) << "|\n"
     << "| Baby Zebra(lbs/d):" << std::setw(18) 
