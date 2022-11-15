@@ -1,0 +1,114 @@
+/*
+    * Name: Daryl_Galindo, 5005922033, CS135-1026, Lab8A
+    * Description: In this lab you will practice using basic
+    * input/output and making user defined functions.
+    * Input: User input
+    * Output: triangle with slected charaters
+*/
+
+#include <iostream>
+
+using namespace std;
+
+// function foward declartion 
+// gets int from user
+int getIntegerInput(string prompt, int min, int max);
+// get char from user
+char getCharacterInput(string prompt);
+
+// output upsidedown triangle
+void writeUpsideDownTriangle(int size, char character);
+
+// output rightsideup triangle
+void writeRightsideUpTriangle(int size, char character);
+
+int main()
+{
+    // variables
+    string str{};
+    int x{};
+    int y{};
+
+    // get int and store in getNum
+    int getNum{getIntegerInput(str, x, y)};
+
+    // get char and store it in getChar
+    char getChar{getCharacterInput(str)};
+
+    //void writeUpsideDownTriangle(int size, char character)
+    // output a upside down trigle with given input
+    writeUpsideDownTriangle(getNum,getChar);
+
+    // void writeRightsideUpTriangle(int, char);
+    // output a righsideup triangle with given input
+    writeRightsideUpTriangle(getNum,getChar);
+    
+    return 0;
+}
+
+int getIntegerInput(string prompt, int min, int max)
+{
+    int input{};
+    do
+    {
+        //cout prompt and get input
+        string prompt{"Enter a count between 2 and 20\n**"};
+        cout << prompt;
+
+        cin >> input;
+
+        // min & max are assigned to the value of input
+        min = input;
+        max = input;
+
+        // check for input failure
+        if(cin.fail() || min < 2 || max > 20)
+        {
+            cout << "\nError: Invalid input!\n";
+            cin.clear();
+            cin.ignore(100,'\n');
+        }
+    } while(min < 2 || max > 20);
+    return input;
+}
+char getCharacterInput(string prompt)
+{
+    char character{};
+
+    string showPrompt{"\nEnter a character\n**"};
+    cout << showPrompt;
+
+    cin >> character;
+
+    cout << '\n';
+
+    return character;
+}
+void writeUpsideDownTriangle(int size, char character)
+{
+    // deals with rows
+    for (int i = size; i > 0; i--)
+    {
+        // deals with col
+        for (int j = i; j > 0; j--)
+        {
+            cout << character;
+        }
+        cout << '\n';
+    }
+}
+void writeRightsideUpTriangle(int size, char character)
+{
+    int counter{0};
+    while(counter < size)
+    {
+        int counter2{0};
+        while(counter2 < counter)
+        {
+            cout << character;
+            counter2++;
+        }
+        cout << character << '\n';
+        counter++;
+    }
+}

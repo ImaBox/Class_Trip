@@ -1,0 +1,39 @@
+/*
+    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_2A
+    Description: Practice asking the user for numbers, reading doubles from the keyboard
+     or user into variables, converting values from degrees to radians using an arithmetic expression, 
+     and computing the sine and cosine using the cmath methods sin() and cos() ().
+    Input: User input
+    Output: radians, and use of cmath expressions
+*/
+
+#include <iostream>
+#include <cmath>
+
+// global constant(internal linkage)
+const double g_pi{3.141592};
+
+int main()
+{
+    // get user input in double 
+    double degrees {};
+    std::cout << "Enter an angle value, in degrees\n**";
+    std::cin >> degrees;
+
+    std::cout << '\n'; // line for space
+
+    // convert angle to radians 
+    double radians {(degrees * g_pi) / 180};
+
+    // output radians to user
+    std::cout << degrees << " degrees = " << radians << " radians\n";
+
+    // use cmath libary for the sin,cin,cos
+    std::cout << "sin(" << degrees << ") = " << sin(radians) << '\n' 
+                 << "cos(" << degrees << ") = " << cos(radians) << '\n'
+                  << "tan(" << degrees << ") = " << tan(radians) << '\n';
+
+                  std::cout << "\n"; // to make code grade happy
+
+    return 0;
+}
