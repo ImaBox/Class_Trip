@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_6B
     Description: practice using basic file I/O, 1D arrays, 
     and parallel arrays.
     Input: File input
