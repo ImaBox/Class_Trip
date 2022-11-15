@@ -1,6 +1,5 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_5A
-    Description: In this lab you will practice using C++ loops, 
+    Description: practice using C++ loops, 
     correcting the input stream if it goes to the fail state, and nested loops.
     Input: User input
     Output: Fail state & nested loops
