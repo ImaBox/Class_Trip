@@ -1,5 +1,4 @@
 /*
-    Name: DARYL GALITIVE, NSHE_ID_5005922033, 1022, LAB_3A
     Description: practice prompting the user for multiple values, 
     reading the values from the user/keyboard into variables,
     using if...else statements to compare the values entered by the user
